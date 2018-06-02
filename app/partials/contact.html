@@ -1,8 +1,5 @@
 <div class="about-me-section">
     <div class="row">
-        <!--<div class="col offset-s2 s8 offset-m5 m2">-->
-            <!--<img class="responsive-img circle img-bounded-quarter" src="app/assets/coyote-searching.jpg">-->
-        <!--</div>-->
         <div class="col s10 m8 offset-s1 offset-m2">
             <h3>Looking for me?</h3>
         </div>
@@ -36,7 +33,7 @@
             <div class="center">
                 <div ng-repeat="profile in social" class="row">
                     <a class="col s12 valign-wrapper btn btn-block btn-large waves-effect waves-light {{profile.color}} {{profile.textColor}}-text"
-                    href="{{profile.url}}">
+                    href="{{profile.url}}" target="_blank">
                         <i class="socicon-{{profile.soicon}} left"></i>
                         {{profile.name}}
                     </a>
@@ -48,7 +45,6 @@
 
     <div class="row">
         <h4>I'd love to hear from you!</h4>
-        <br><br>
         <br><br>
         * Preferred contact method
     </div>
