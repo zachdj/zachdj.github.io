@@ -1,6 +1,6 @@
 <div class="content">
     <span class="header row hide-on-small-and-down" ng-controller="TabsController">
-        <button ng-repeat="tab in tabs" class="col s3 btn-flat waves-effect waves-light btn center-align transparent custom-tab"
+        <button ng-repeat="tab in tabs" class="col s4 btn-flat waves-effect waves-light btn center-align transparent custom-tab"
         ui-sref="{{tab.navName}}" ng-class="tab.isSelected ? 'orange-text' : 'white-text'"
         ng-click="selectTab(tab)">
             <i class="material-icons hide-on-small-and-down">{{tab.icon}}</i>

@@ -13,12 +13,12 @@
                 icon: "description",
                 isSelected: false
             },
-            {
-                name: "My Work",
-                navName: "app.my-work",
-                icon: "work",
-                isSelected: false
-            },
+            // {
+            //     name: "My Work",
+            //     navName: "app.my-work",
+            //     icon: "work",
+            //     isSelected: false
+            // },
             {
                 name: "Contact",
                 navName: "app.contact",
