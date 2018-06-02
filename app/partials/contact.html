@@ -7,17 +7,17 @@
     <div class="row">
 
         <div class="col s12 offset-m2 m3">
-            <h4>Contact Info</h4>
+            <h4 class="text-theme2">Contact Info</h4>
             <div class="center">
                 <div ng-repeat="item in contact" class="row">
-                    <a class="col s12 valign-wrapper btn btn-flat btn-large waves-effect waves-light {{item.color}} {{item.textColor}}-text"
+                    <a class="col s12 valign-wrapper btn btn-flat btn-large waves-effect waves-light {{item.color}} white-text"
                        href="{{item.url}}">
                         <i class="material-icons left">{{item.icon}}</i>
                         {{item.text}}
                     </a>
                 </div>
                 <div class="row">
-                    <a class="col s12 valign-wrapper waves-effect waves-light transparent orange-text">
+                    <a class="col s12 valign-wrapper waves-effect waves-light transparent white-text">
                         <i class="material-icons left valign">home</i>
                         <div class="valign">
                             618 Amanda Furnace Dr. <br>
@@ -29,7 +29,7 @@
         </div>
 
         <div class="col s12 offset-m2 m3">
-            <h4>Social Media</h4>
+            <h4 class="text-theme2">Social Media</h4>
             <div class="center">
                 <div ng-repeat="profile in social" class="row">
                     <a class="col s12 valign-wrapper btn btn-block btn-large waves-effect waves-light {{profile.color}} {{profile.textColor}}-text"

@@ -34,13 +34,11 @@ app.controller("ContactController", ["$scope", function($scope){
             text: "zach.dean.jones@gmail.com",
             icon: "email",
             color: "transparent",
-            textColor: "orange",
             url: "mailto:zach.dean.jones@gmail.com"
         },{
             text: "(606) 571-7846 *",
             icon: "phone_iphone",
             color: "transparent",
-            textColor: "orange",
             url: "tel:16065717846"
         }
     ]

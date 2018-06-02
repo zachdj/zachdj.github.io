@@ -45,16 +45,23 @@
 
 /* Theme colors */
 .underline-theme1{
-    border-bottom: 1px solid #ff9800;
+    border-bottom: 1px solid #2196f3;
 }
 .underline-theme2{
-    border-bottom: 1px solid #ffcc80;
+    border-bottom: 1px solid #64b5f6;
 }
 .underline-theme3{
-    border-bottom: 1px solid #ba68c8;
+    border-bottom: 1px solid #64b5f6;
 }
 .underline-theme4{
-    border-bottom: 1px solid purple;
+    border-bottom: 1px solid #2196f3;
+}
+
+.text-theme1{
+    color: #2196f3;
+}
+.text-theme2{
+    color: #64b5f6;
 }
 
 /************************  Styles for About Me page ***********************************************/
@@ -97,19 +104,15 @@ hr.horizontal-line-white{
     border-top: 1px solid #ffffff;
 }
 
-hr.horizontal-line-orange{
-    border-top: 2px solid #ff9800;
-}
-
 hr.horizontal-line-theme1{
-    border-top: 2px solid #ff9800;
+    border-top: 2px solid #2196f3;
 }
 hr.horizontal-line-theme2{
-    border-top: 2px solid #ffcc80;
+    border-top: 2px solid #64b5f6;
 }
 hr.horizontal-line-theme3{
-    border-top: 2px solid #ba68c8;
+    border-top: 2px solid #64b5f6;
 }
 hr.horizontal-line-theme4{
-    border-top: 2px solid purple;
+    border-top: 2px solid #2196f3;
 }
