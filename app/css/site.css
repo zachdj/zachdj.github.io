@@ -1,0 +1,115 @@
+/*  Styles for app */
+
+/************************  General Styles   ***********************************************/
+
+.content{
+    min-height: 100vh;
+    background: url("../assets/temp-bg.jpg") fixed center;
+}
+
+.custom-tab{
+    font-size: 1.3em;
+    height: 5vh;
+}
+
+.custom-footer{
+    position:fixed;
+    bottom: 0;
+    height: 7vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    z-index: 10000;
+}
+.footer-img{
+    max-height: 7vh;
+}
+
+.vcentered-img-frame {
+    height: 160px; /*can be anything*/
+    width: 160px; /*can be anything*/
+    position: relative;
+}
+.vcentered-img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/* Theme colors */
+.underline-theme1{
+    border-bottom: 1px solid #ff9800;
+}
+.underline-theme2{
+    border-bottom: 1px solid #ffcc80;
+}
+.underline-theme3{
+    border-bottom: 1px solid #ba68c8;
+}
+.underline-theme4{
+    border-bottom: 1px solid purple;
+}
+
+/************************  Styles for About Me page ***********************************************/
+
+.about-me-section{
+    padding-top: 5vh;
+    text-align: center;
+    font-family: Roboto;
+}
+.about-me-section p{
+    /*font-size: 1.7em;*/
+    text-align: center;
+}
+
+/************************  Styles for Resume page ***********************************************/
+
+.resume-section-content{
+    border-left: 1px solid #ff9800;
+}
+.resume-section-content-2{
+    border-left: 1px solid #ffcc80 ;
+}
+.resume-section-content-3{
+    border-left: 1px solid #ba68c8 ;
+}
+.resume-section-content-4{
+    border-left: 1px solid purple ;
+}
+
+/************************  Styles for Portfolio page ***********************************************/
+
+/************************  Styles for Contact page ***********************************************/
+
+/* utility styles */
+hr.horizontal-line-black{
+    border-top: 1px solid #000000;
+}
+
+hr.horizontal-line-white{
+    border-top: 1px solid #ffffff;
+}
+
+hr.horizontal-line-orange{
+    border-top: 2px solid #ff9800;
+}
+
+hr.horizontal-line-theme1{
+    border-top: 2px solid #ff9800;
+}
+hr.horizontal-line-theme2{
+    border-top: 2px solid #ffcc80;
+}
+hr.horizontal-line-theme3{
+    border-top: 2px solid #ba68c8;
+}
+hr.horizontal-line-theme4{
+    border-top: 2px solid purple;
+}

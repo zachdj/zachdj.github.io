@@ -1,0 +1,11 @@
+<!--Desktop version-->
+
+<b class="right hide-on-small-and-down">
+    {{startFormatted | date: "MMM yyyy" }} - {{endFormatted? (endFormatted | date: "MMM yyyy") : "Present" }}
+</b>
+
+<!--Mobile version-->
+
+<b class="right hide-on-med-and-up">
+    {{startFormatted | date: "M/yy" }} - {{endFormatted? (endFormatted | date: "M/yy") : "Present" }}
+</b>

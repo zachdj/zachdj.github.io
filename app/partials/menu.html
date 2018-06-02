@@ -1,0 +1,44 @@
+<div class="content">
+    <span class="header row hide-on-small-and-down" ng-controller="TabsController">
+        <button ng-repeat="tab in tabs" class="col s3 btn-flat waves-effect waves-light btn center-align transparent custom-tab"
+        ui-sref="{{tab.navName}}" ng-class="tab.isSelected ? 'orange-text' : 'white-text'"
+        ng-click="selectTab(tab)">
+            <i class="material-icons hide-on-small-and-down">{{tab.icon}}</i>
+            <span class="flow-text">{{tab.name}}</span>
+        </button>
+    </span>
+
+    <div class="hide-on-med-and-up" ng-controller="TabsController">
+        <nav class="transparent">
+            <div class="nav-wrapper">
+                <a ui-sref="app.about" class="brand-logo">Zach Jones</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse" side-nav-init><i class="material-icons">menu</i></a>
+                <ul class="side-nav" id="mobile-demo">
+                    <li ng-repeat="tab in tabs"> <a ui-sref="{{tab.navName}}" class="waves-effect waves-orange black-text">
+                        <span>
+                            <i class="material-icons left">{{tab.icon}}</i>
+                            <span>{{tab.name}}</span>
+                        </span>
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div ui-view="tabContent" class="white-text">
+
+    </div>
+
+    <div class="custom-footer grey-text text-lighten-4">
+        <div class="row valign-wrapper">
+            <div class="col offset-s1 offset-m1 s4 m7 valign">
+                © 2016 Zach Jones
+            </div>
+            <div class="col s6 m3">
+                <a href="http://materializecss.com/" target="_blank"><img class="footer-img right" src="app/assets/materialize.png"></a>
+                <a href="https://angularjs.org/" target="_blank"><img class="footer-img right" src="app/assets/angular.png"></a>
+            </div>
+            <div class="col s1"></div>
+        </div>
+    </div>
+
+</div>

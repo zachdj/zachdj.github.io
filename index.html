@@ -1,1 +1,82 @@
-Hello, World!
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="57x57" href="app/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="app/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="app/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="app/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="app/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="app/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="app/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="app/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="app/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="app/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="app/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="app/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="app/favicon-16x16.png">
+        <link rel="manifest" href="app/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="app/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Zach Jones</title>
+        <!-- Our site's fonts: -->
+        <link href='https://fonts.googleapis.com/css?family=Nunito:700' rel='stylesheet' type='text/css'>
+        <!-- CSS Dependencies -->
+        <!-- Materialize icons and CSS -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="app/lib/Materialize/dist/css/materialize.min.css" rel="stylesheet" />
+
+        <!-- Soicon for social icons-->
+        <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+
+        <!-- Load our site's css here -->
+        <link href="app/css/site.css" rel="stylesheet" />
+
+
+        <!-------------------------------------- Dependencies ----------------------------------------------------------------->
+
+        <!-- jQuery is required for Materialize -->
+        <script src="app/lib/jquery/dist/jquery.min.js"></script>
+
+        <!-- Angular and misc modules -->
+        <script src="app/lib/angular/angular.js"></script>
+        <script src="app/lib/angular-animate/angular-animate.min.js"></script>
+
+        <!-- angular-ui-router -->
+        <script src="app/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+        <!-- Lodash is a great javascript library for manipulating arrays and providing other handy functions -->
+        <script src="app/lib/lodash/dist/lodash.min.js"></script>
+
+        <!-- Materialize framework -->
+        <script src="app/lib/Materialize/dist/js/materialize.min.js"></script>
+
+        <!-------------------------------------- Our App's JS ----------------------------------------------------------------->
+
+        <!-- Load app main script and route-registration -->
+        <script src="app/app.js"></script>
+        <script src="app/route-definition.js"></script>
+
+        <!--Controllers-->
+        <script src="app/js/controllers/TabsController.js"></script>
+        <script src="app/js/controllers/ContactController.js"></script>
+        <script src="app/js/controllers/ResumeController.js"></script>
+
+        <!--Directives-->
+        <script src="app/js/directives/SideNavInit.js"></script>
+        <script src="app/js/directives/DateRange.js"></script>
+
+
+    </head>
+    <body>
+
+    <div ui-view>
+        <!-- Templates injected here -->
+    </div>
+
+    </body>
+</html>
