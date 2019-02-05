@@ -7,19 +7,26 @@ app.controller("ContactController", ["$scope", function($scope){
             color: "grey",
             textColor: "white"
         },
-        // {
-        //     name: "Twitter",
-        //     soicon: "twitter",
-        //     url: "https://twitter.com/zachydj",
-        //     color: "blue",
-        //     textColor: "white"
-        // },
         {
-            name: "Google+",
-            soicon: "googleplus",
-            url: "https://plus.google.com/+zachjones-us",
-            color: "red",
+            name: "Github",
+            soicon: "github",
+            url: "https://github.com/zachdj",
+            color: "green",
             textColor: "white"
+        },
+        {
+            name: "Bitbucket",
+            soicon: "bitbucket",
+            url: "https://bitbucket.org/zachdj",
+            color: "blue",
+            textColor: "white"
+        },
+        {
+            name: "Portfolium",
+            soicon: "paypal",
+            url: "https://portfolium.com/ZacharyJones30",
+            color: "white",
+            textColor: "blue"
         }
     ];
     
